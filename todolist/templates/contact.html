@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+
+{% block title %} Contact Us {% endblock title %}
+
+{% block content %}
+<div class="container my-5">
+
+  <!-- Page Heading -->
+  <div class="text-center mb-5">
+    <h1 class="fw-bold">Contact Us</h1>
+    <p class="text-muted">We’d love to hear from you! Reach out using the details below.</p>
+  </div>
+
+  <div class="row g-4">
+    
+    <!-- Contact Info Section -->
+    <div class="col-lg-5">
+      <div class="card shadow-sm h-100">
+        <div class="card-body">
+          <h4 class="card-title mb-4">Our Information</h4>
+          <p><i class="bi bi-envelope-fill text-primary me-2"></i><strong>Email:</strong> support@example.com</p>
+          <p><i class="bi bi-telephone-fill text-success me-2"></i><strong>Phone:</strong> +91 98765 43210</p>
+          <p><i class="bi bi-geo-alt-fill text-danger me-2"></i><strong>Address:</strong> 123, MG Road, Bhubaneswar, Odisha</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact Form Section -->
+    <div class="col-lg-7">
+      <div class="card shadow-sm h-100">
+        <div class="card-body">
+          <h4 class="card-title mb-4">Send Us a Message</h4>
+          <form>
+            <div class="mb-3">
+              <label class="form-label">Your Name</label>
+              <input type="text" class="form-control" placeholder="Enter your name">
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Your Email</label>
+              <input type="email" class="form-control" placeholder="Enter your email">
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Message</label>
+              <textarea class="form-control" rows="4" placeholder="Write your message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary w-100">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+{% endblock content %}

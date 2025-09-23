@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% load crispy_forms_tags %}
+
+
+{% block title %} Login {% endblock title %}
+
+{% block content %}
+<div class="container">
+
+    <h4>Thank you for using TodoManager</h4>
+    <a href="{% url 'login' %}"><button type="submit" class="btn btn-primary">Login Again</button></a>
+
+</div>
+{% endblock content %}
