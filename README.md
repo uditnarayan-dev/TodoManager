@@ -47,4 +47,86 @@ A simple and efficient web-based to-do list manager built with **Django** and **
 ---
 
 ## 📂 Project Structure (Simplified)
+.
+├── README.md
+├── TodoManager
+│   ├── __init__.py
+│   ├── __pycache__
+│   ├── asgi.py
+│   ├── settings.py
+│   ├── urls.py
+│   └── wsgi.py
+├── build.sh
+├── manage.py
+├── requirements.txt
+├── static
+│   ├── css
+│   ├── image
+│   └── js
+├── templates
+│   └── base.html
+├── todo_env
+│   ├── Include
+│   ├── Lib
+│   ├── Scripts
+│   └── pyvenv.cfg
+├── todolist
+│   ├── __init__.py
+│   ├── __pycache__
+│   ├── admin.py
+│   ├── apps.py
+│   ├── forms.py
+│   ├── migrations
+│   ├── models.py
+│   ├── templates
+│   ├── tests.py
+│   ├── urls.py
+│   └── views.py
+└── users
+    ├── __init__.py
+    ├── __pycache__
+    ├── admin.py
+    ├── apps.py
+    ├── forms.py
+    ├── migrations
+    ├── models.py
+    ├── templates
+    ├── tests.py
+    ├── urls.py
+    └── views.py
+
+
+---
+
+## ⚙ Getting Started
+
+### ✅ Prerequisites
+Ensure you have the following installed:
+- Python 3.x
+- PostgreSQL
+- pip
+- virtualenv (recommended)
+
+---
+
+### 📥 1. Clone the Repository
+```bash
+git clone https://github.com/uditnarayan-dev/TodoManager.git
+
+cd TodoManager
+virtualenv todo_env
+source todo_env/bin/activate   # On Linux/Mac
+todo_env\Scripts\activate      # On Windows
+
+pip install -r requirements.txt
+
+python manage.py migrate
+
+python manage.py runserver
+
+Open your browser and visit: http://127.0.0.1:8000/
+
+📸 Screenshots
+![Homepage](./screenshots/homepage.png)
+![Task List](./screenshots/tasklist.png)
 
