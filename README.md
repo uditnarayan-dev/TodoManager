@@ -9,10 +9,7 @@ A simple and efficient web-based to-do list manager built with **Django** and **
 - [Features](#-features)
 - [Tech Stack](#-tech-stack)
 - [Live Demo](#-live-demo)
-- [Project Structure](#-project-structure)
 - [Getting Started](#-getting-started)
-- [Screenshots](#-screenshots)
-- [Roadmap / Future Enhancements](#-roadmap--future-enhancements)
 
 ---
 
@@ -43,57 +40,6 @@ A simple and efficient web-based to-do list manager built with **Django** and **
 ## 🌐 Live Demo
 🚀 You can access the deployed version here:  
 **http://3.111.130.128:8002/**
-
----
-
-## 📂 Project Structure (Simplified)
-.
-├── README.md
-├── TodoManager
-│   ├── __init__.py
-│   ├── __pycache__
-│   ├── asgi.py
-│   ├── settings.py
-│   ├── urls.py
-│   └── wsgi.py
-├── build.sh
-├── manage.py
-├── requirements.txt
-├── static
-│   ├── css
-│   ├── image
-│   └── js
-├── templates
-│   └── base.html
-├── todo_env
-│   ├── Include
-│   ├── Lib
-│   ├── Scripts
-│   └── pyvenv.cfg
-├── todolist
-│   ├── __init__.py
-│   ├── __pycache__
-│   ├── admin.py
-│   ├── apps.py
-│   ├── forms.py
-│   ├── migrations
-│   ├── models.py
-│   ├── templates
-│   ├── tests.py
-│   ├── urls.py
-│   └── views.py
-└── users
-    ├── __init__.py
-    ├── __pycache__
-    ├── admin.py
-    ├── apps.py
-    ├── forms.py
-    ├── migrations
-    ├── models.py
-    ├── templates
-    ├── tests.py
-    ├── urls.py
-    └── views.py
 
 
 ---
