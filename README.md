@@ -1,32 +1,50 @@
-# TodoManager
+# ✅ TodoManager
 
-A Django-based Todo Manager app.
+A simple and efficient web-based to-do list manager built with **Django** and **PostgreSQL**.
 
-## Features
-- Add, update, delete tasks
-- User authentication
-- Responsive design
+---
 
-## Setup
+## 📌 Table of Contents
+- [Overview](#-overview)
+- [Features](#-features)
+- [Tech Stack](#-tech-stack)
+- [Live Demo](#-live-demo)
+- [Project Structure](#-project-structure)
+- [Getting Started](#-getting-started)
+- [Screenshots](#-screenshots)
+- [Roadmap / Future Enhancements](#-roadmap--future-enhancements)
 
-1. Clone the repo:
-git clone <repo-link>
+---
 
-2. Navigate to the project:
-cd TodoManager
+## 📖 Overview
+**TodoManager** is a task management web application that allows users to organize their daily activities. Users can register, log in, create tasks, mark them as complete or pending, update them, and delete them as needed. It’s a simple solution designed for anyone looking to track their tasks with a clean and responsive UI.
 
-3. Create virtual environment:
-python -m venv todo_env
+---
 
-4. Activate virtual environment:
-todo_env\Scripts\activate # Windows
+## ✨ Features
+✅ User Authentication (Signup / Login / Logout)  
+✅ Create, Edit, and Delete Tasks  
+✅ Mark Tasks as Completed or Pending  
+✅ Responsive UI with Bootstrap  
+✅ Django Class-Based Views and Forms  
 
-5. Install dependencies:
-pip install -r requirements.txt
+---
 
-6. Run migrations:
-python manage.py migrate
+## 🛠 Tech Stack
+| Layer        | Technology  |
+|-------------|-------------|
+| Backend     | Django      |
+| Database    | PostgreSQL  |
+| Frontend    | HTML, CSS   |
+| UI Framework| Bootstrap   |
 
-7. Start the server:
-python manage.py runserver
+---
+
+## 🌐 Live Demo
+🚀 You can access the deployed version here:  
+**http://3.111.130.128:8002/**
+
+---
+
+## 📂 Project Structure (Simplified)
 

@@ -29,7 +29,7 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
-    "whitenoise.middleware.WhiteNoiseMiddleware",  # ✅ for static files
+    "whitenoise.middleware.WhiteNoiseMiddleware",  
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -56,6 +56,18 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'TodoManager.wsgi.application'
+
+#Production(EC2)
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql_psycopg2',
+#         'NAME': 'todomanager_db',       
+#         'USER': 'todomanager_user',                 
+#         'PASSWORD': 'Udit@70777',           
+#         'HOST': 'localhost',
+#         'PORT': '5432',
+#     }
+# }
 
 
 DATABASES = {
